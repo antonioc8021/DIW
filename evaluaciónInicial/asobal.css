@@ -54,3 +54,19 @@ footer {
 p {
     color: black;
 }
+
+table,
+tr,
+td,
+th {
+    color: black;
+    border: 1px black solid;
+}
+
+.login {
+    text-decoration: overline;
+}
+
+.d {
+    color: purple;
+}
