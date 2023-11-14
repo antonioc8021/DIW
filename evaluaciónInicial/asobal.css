@@ -59,6 +59,7 @@ ul {
 footer {
     background-color: lightgrey;
     bottom: 0;
+    padding-bottom: 0;
 }
 
 p {

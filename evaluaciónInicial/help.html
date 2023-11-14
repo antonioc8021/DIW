@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>help</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="asobal.css">
 </head>
 
 <body>
-    <p id="n">Nombre de usuario: <input type="text" id="usuario" name="usuario"></p>
-    <p id="n">Problema a tratar: <textarea name="problema" id="problema" cols="30" rows="10"></textarea></p>
+    <form action="" method="post">
+        <p>Nombre de usuario: <input type="text" id="usuario" name="usuario"></p>
+        <p>¿Cuál es problema que tiene?
+            <input type="checkbox" id="malaconexion" value="malaConexion">Mala Conexión
+            <input type="checkbox" id="noCarga" value="noCargaContenido">No carga todo el contenido
+            <input type="checkbox" id="noRedirige" value="noRedirige">No funcionan los enlaces
+        </p>
+        <p>Problema a tratar: <textarea name="problema" id="problema" cols="30" rows="10"></textarea></p>
+        <p>¿Cómo de satisfecho te sientes?
+            <select name="satifecho">
+                <option value="pocoSatisfecho">Poco Satisfecho</option>
+                <option value="Satisfecho">Satisfecho</option>
+                <option value="muySatisfecho">Muy Satisfecho</option>
+            </select>
+        </p>
+        <p>¿Hemos podido ayudarte? <input type="radio" id="si" name="ayuda">Si <input type="radio" id="no"
+                name="ayuda">no
+        </p>
+        <!-- este button se que no debería de llevar el role link para que esté bien sino que lo tiene que hacer el servidor, 
+                pero es para que quede chulo no para que sea funcional, no me mates -->
+        <input type="reset">
+        <input type="button" value="Enviar" role="link" onclick="window.location='./asobal.html'"></input>
+    </form>
 </body>
 
 </html>
