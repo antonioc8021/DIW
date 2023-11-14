@@ -7,6 +7,11 @@ body {
 
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
 
 h1 {
     text-align: center;
@@ -27,22 +32,27 @@ a {
     /* Ancho deseado para la barra lateral */
     background-color: #f0f0f0;
     /* Color de fondo de la barra lateral */
-    padding: 20px;
-    position: fixed;
-    /* Fijar la barra lateral en su posición */
-    top: 0%;
-    left: 0;
-    bottom: 0;
+    padding: 0.5em;
     /* Añadir desplazamiento vertical si el contenido es largo */
     overflow-y: auto;
     flex-direction: column;
     align-items: center;
     /* opacity: 40%; */
     color: black;
+    list-style-type: none;
+}
+
+.cuerpo {
+    /* así lo fuerzo a utilizar el 100% del ancho del div y no me genera huecos a los costados */
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .listas {
-    margin-right: 3.5%;
     color: black;
 }
 
