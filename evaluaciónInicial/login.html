@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 
 <head>
     <meta charset="UTF-8">
@@ -20,10 +20,13 @@
                 <th>Contraseña: </th>
                 <td><input type="password"></td>
             </tr>
-            <tr>
+            <>
                 <td><input type="reset" value="Limpiar"></td>
-                <td><input type="button" value="Enviar"><a href="./asobal.html"></a></input></td>
-            </tr>
+                <!-- este button se que no debería de llevar el role link para que esté bien sino que lo tiene que hacer el servidor, 
+                    pero es para que quede chulo no para que sea funcional, no me mates -->
+                <td><input type="button" value="Enviar" role="link" onclick="window.location='./asobal.html'"></input>
+                </td>
+                </tr>
         </table>
     </form>
 
