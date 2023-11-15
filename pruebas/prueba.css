@@ -1,5 +1,6 @@
 * {
     color: blue !important;
+    font-size: 1em;
 }
 
 p {
@@ -17,4 +18,5 @@ p#micado {
 
 p {
     color: purple;
+    font-size: 15;
 }
