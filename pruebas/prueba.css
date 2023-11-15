@@ -1,0 +1,20 @@
+* {
+    color: blue !important;
+}
+
+p {
+    color: green;
+}
+
+/* si pongo el !important, prioriza este */
+p#micado {
+    color: red !important;
+}
+
+p#micado {
+    color: orange;
+}
+
+p {
+    color: purple;
+}
