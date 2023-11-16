@@ -1,5 +1,6 @@
 /* si pongo el asterisco se imprime el title por pantalla */
 body {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(234, 200, 200);
     display: flex;
@@ -39,6 +40,13 @@ div.chiste3 {
     border-radius: 2em;
 }
 
+div.chiste3:hover {
+    font-size: 25px;
+    color: black;
+    background-color: lightblue;
+}
+
+
 div.chiste4 {
     background-color: pink;
     border: 1em dashed;
@@ -75,28 +83,50 @@ div.chiste8 {
 div.chiste9 {
     background-color: yellow;
     border: 2em inset white;
+    border-radius: 1.5em;
 }
 
 div.chiste10 {
-    background-color: orange;
+    color: white;
+    background-color: rgb(71, 5, 71);
+    border: 0.5em solid white;
+    border-radius: 1em;
 }
 
 div.chiste11 {
-    background-color: orange;
+    background-color: slategray;
+    border: 1em dotted black;
+    border-radius: 1.8em;
 }
 
 div.chiste12 {
-    background-color: orange;
+    background-color: lightsalmon;
+    border: 2em outset lightblue;
+    border-radius: 50%;
+}
+
+div.chiste12:hover {
+    background-color: lightblue;
+    border: 2em inset lightsalmon;
+    border-radius: 50%;
 }
 
 div.chiste13 {
-    background-color: orange;
+    background-color: white;
+    border: 1ex hidden;
+    border-radius: 1em;
+
 }
 
 div.chiste14 {
-    background-color: orange;
+    background-color: transparent;
+    border: 0.3em solid rgb(92, 142, 92);
+    border-radius: 1em;
 }
 
 div.chiste15 {
-    background-color: orange;
+    color: white;
+    background-color: navy;
+    border: 1em double white;
+    border-radius: 50%;
 }
