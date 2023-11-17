@@ -1,0 +1,45 @@
+/* general:
+/* style="background-image: url('/res/html5/ex/ejercicio-tres-columnas/panteon.jpg'); width: 722px; height: 480px; margin:auto" */
+
+/* div1: */
+/* style=" overflow:auto; display:inline-block; width:70px; height:170px; margin-left: 200px; margin:auto; */
+
+/* div2 */
+/* style=" overflow:auto; display:inline-block; width:70px; height:170px; margin-left: 50px; margin-top:210px" */
+
+
+/* div3 */
+/* * style=" overflow:auto; display:inline-block; width:70px; height:170px; margin-left: 60px; margin-top:210px" */
+.wrapper {
+    background-image: url(./panteon.jpg);
+    width: 722px;
+    height: 480px;
+    margin: auto;
+}
+
+.div1 {
+    overflow: auto;
+    display: inline-block;
+    width: 70px;
+    height: 170px;
+    margin-left: 12.4em !important;
+    margin: auto;
+}
+
+.div2 {
+    overflow: auto;
+    display: inline-block;
+    width: 70px;
+    height: 170px;
+    margin-left: 50px;
+    margin-top: 210px;
+}
+
+.div3 {
+    overflow: auto;
+    display: inline-block;
+    width: 70px;
+    height: 170px;
+    margin-left: 60px;
+    margin-top: 210px;
+}
