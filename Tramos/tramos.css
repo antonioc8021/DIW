@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(177, 208, 243);
+    text-align: left;
+    padding: 0 25%;
+}
+
+p.cabecera {
+    text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.titulo {
+    text-align: left !important;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+span.rojo {
+    color: red;
+}
+
+span.subrayado {
+    text-decoration: underline overline red;
+}
+
+span.gigante {
+    font-style: italic;
+    color: blue;
+    font-size: 3em;
+}
