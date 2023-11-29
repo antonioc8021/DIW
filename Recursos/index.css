@@ -1,0 +1,33 @@
+body {
+    background-image: url(./Imagenes/bg_huella.gif);
+}
+
+.wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera {
+    height: 125px;
+    width: 701px;
+    background-image: url(./Imagenes/cabecera.gif);
+}
+
+a.cabecera {
+    height: 125px;
+    width: 252px;
+}
+
+
+
+.cuerpo {
+    vertical-align: middle;
+    align-content: center;
+    background-color: white;
+    width: 701px;
+}
