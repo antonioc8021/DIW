@@ -1,15 +1,22 @@
 body {
     background-image: url(./Imagenes/bg_huella.gif);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .wrapper {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 701px;
     margin-top: 0;
     margin-bottom: 0;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .cabecera {
@@ -18,12 +25,20 @@ body {
     background-image: url(./Imagenes/cabecera.gif);
 }
 
-a.cabecera {
+.cabecera a {
     height: 125px;
     width: 252px;
+    float: left;
 }
 
+.cabecera.limpia {
+    clear: both;
+}
 
+.menu li {
+    display: inline-block;
+
+}
 
 .cuerpo {
     vertical-align: middle;
