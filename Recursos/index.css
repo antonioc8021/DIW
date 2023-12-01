@@ -37,7 +37,11 @@ body {
 
 .menu li {
     display: inline-block;
+}
 
+.galeria {
+    width: 701px;
+    height: 242px;
 }
 
 .cuerpo {
@@ -45,4 +49,23 @@ body {
     align-content: center;
     background-color: white;
     width: 701px;
+}
+
+.contenidoConLateral {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido {
+    float: left;
+    width: 420px;
+    text-align: left;
+    font-size: 0.8em;
+    padding: 40px 40px;
+
+}
+
+.lateral {
+    margin: 40px 25px;
+
 }
