@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/favicon.gif" type="image/x-icon">
+    <link rel="stylesheet" href="presupuesto.css">
+    <title>Presupuesto</title>
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <p><strong>DATOS DEL TERRENO:</strong></p>
+        <p>
+            Tipo de finca:
+            <input type="radio" id="urbana" name="finca" value="urbana"> Urbana
+            <input type="radio" id="rustica" name="finca" value="rustica">Rústica
+        </p>
+        <p>
+            Nivel de vegetación:
+            <input type="radio" id="pradera" name="vegetacion" value="pradera"> Pradera
+            <input type="radio" id="arbolado" name="vegetacion" value="arbolado"> Arbolado
+            <input type="radio" id="arbustos" name="vegetacion" value="arbustos"> Arbustos
+            <input type="radio" id="monte" name="vegetacion" value="monte"> Monte
+        </p>
+        <p>
+            Superficie aproximada:
+            <input type="radio" id="mil" name="superficie" value="mil"> Hasta 1000m<sup>2</sup>
+            <input type="radio" id="dosmil" name="superficie" value="dosmil"> De 1000 a 2000<sup>2</sup>
+            <input type="radio" id="cincomil" name="superficie" value="cincomil"> De 2000 a 5000m<sup>2</sup>
+            <input type="radio" id="diezmil" name="superficie" value="diezmil"> De 5000 a 10000m<sup>2</sup>
+            <input type="radio" id="masde10mil" name="superficie" value="masde10mil"> Más de 10000m<sup>2</sup>
+        </p>
+        <p>
+            Ref. catastral <input type="text" name="catastral" id="catastral">
+        </p>
+
+        <br>
+
+        <p><strong>DATOS PERSONALES:</strong></p>
+        <p>*Nombre: <input type="text" name="nombre" id="nombre" required></p>
+        <p>*Apellidos: <input type="text" name="apellidos" id="apellidos" required></p>
+        <p>*Teléfono: <input type="number" name="telefono" id="telefono" required></p>
+        <p>*Email: <input type="text" name="email" id="email" required></p>
+        <p>(*) Datos obligatorios</p>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        <input type="reset" value="Limpiar" id="limpiar" name="limpiar">
+    </form>
+</body>
+
+</html>

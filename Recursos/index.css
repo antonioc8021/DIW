@@ -35,6 +35,12 @@ body {
     clear: both;
 }
 
+.menu {
+    width: 701px;
+    display: flex;
+    justify-content: start;
+}
+
 .menu li {
     display: inline-block;
 }
@@ -67,5 +73,28 @@ body {
 
 .lateral {
     margin: 40px 25px;
+    font-size: 0.8em;
+}
 
+.redesSociales {
+    margin-top: 50px;
+}
+
+.menu2 {
+    width: 701px;
+    display: flex;
+    justify-content: start;
+    background-color: #B9B1A8;
+    justify-content: center;
+}
+
+.menu2 li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.pie {
+    text-align: center;
+    font-size: 0.7em;
+    color: #999;
 }

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: black;
+    /* Color del texto */
+    background-color: white;
+    /* Color de fondo */
+}
+
+form {
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="text"],
+input[type="number"] {
+    margin-right: 5px;
+    color: black;
+    /* Color del texto de los campos de entrada */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: black;
+    /* Color del fondo de los botones */
+    color: white;
+    /* Color del texto de los botones */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #333;
+    /* Cambia el color al pasar el ratón sobre los botones */
+}
