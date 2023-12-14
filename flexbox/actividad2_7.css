@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 80px;
+    flex-direction: column;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40%;
+}
+
+.col {
+    margin-right: 80px;
+}
