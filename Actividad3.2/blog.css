@@ -19,20 +19,18 @@ body {
 
 .cuerpo {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    ;
     background-color: rgb(198, 227, 236);
 
 }
 
 img {
     margin: 10px;
+    width: 600px;
+    height: auto;
 }
 
 .fotos {
     margin: 0 10%;
-}
-
-.pie {
-    /* background-color: lightblue; */
 }
