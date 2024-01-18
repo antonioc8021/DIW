@@ -1,0 +1,24 @@
+-Creación de la web para el torneo.
+
+-Un torneo muy especial que participarán 120 alumnos de diversas disciplinas académicas.
+
+-La finalidad de este torneo es solidaria, recogida de alimentos no perecederos, ONG Nueva Vida, gestionará los alimentos y los recursos económicos generados.
+
+
+>SECCIONES<
+Equipos: Aparecerán todos los equipos que participan en el torneo. Si pulsamos su foto accederemos a las plantillas donde veremos el entrenador de cada equipo y todos los jugadores del equipo junto a su dorsal.
+
+Torneo: En la sección de Torneo encontraremos un resumen del torneo, una pequeña explicación sobre la recogida de alimentos, la recaudación de fondos económicos y como partizarán los patrocinadores en el torneo. En la parte inferior de esta sección encontraremos el sistema de competición, la clasificación, los resultados del día y una pequeña galería
+
+Inscripciones: Un formulario en el que obligatoriamente deberán de introducirse 5 jugadores y como máximo un total de 10.
+
+Organizadores: En esta sección podremos conocer a los organizadores del torneo, que son una pieza muy importante para que el torneo salga adelante.
+
+Patrocinadores: Un espacio muy importante en el que le damos a nuestros patrocinadores la importancia que se merecen.
+
+Objetivos: Finalmente encontraremos el apartado de objetivos de desarrollo sostenible en el que explicaremos los valores que se quieren transmitir con este torneo.
+
+
+
+
+Finalmente en la parte inferior encontraremos un enlace al google maps junto a la dirección para poder llegar fácilmente al centro. Además de disponer de un correo y del número de teléfono. También se dispone de un enlace a la cuenta de instagram del torneo.
