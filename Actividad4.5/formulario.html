@@ -1,14 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" required>
+                        <div class="valid-feedback">
+                            ¡Perfecto!
+                        </div>
+                        <div class="invalid-feedback">
+                            Por favor, ingresa tu nombre.
+                        </div>
+                    </div>
 
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                        <div class="valid-feedback">
+                            ¡Correo válido!
+                        </div>
+                        <div class="invalid-feedback">
+                            Por favor, ingresa un correo electrónico válido.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"
+                            required></textarea>
+                        <div class="valid-feedback">
+                            ¡Mensaje recibido!
+                        </div>
+                        <div class="invalid-feedback">
+                            Por favor, ingresa tu mensaje.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="experiencia" class="form-label">Experiencia del Usuario</label>
+                        <div class="btn-group" role="group" aria-label="Experiencia del Usuario">
+                            <input type="radio" class="btn-check" name="experiencia" id="mala" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="mala">Mala</label>
+
+                            <input type="radio" class="btn-check" name="experiencia" id="regular" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="regular">Regular</label>
+
+                            <input type="radio" class="btn-check" name="experiencia" id="buena" autocomplete="off">
+                            <label class="btn btn-outline-success" for="buena">Buena</label>
+
+                            <input type="radio" class="btn-check" name="experiencia" id="muyBuena" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="muyBuena">Muy Buena</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- script que encontré por internet para que me valide en tiempo real en vez de que me valide al enviar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+            'use strict';
+
+            var forms = document.querySelectorAll('.needs-validation');
+
+            Array.from(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add('was-validated');
+                }, false);
+            });
+
+            Array.from(forms).forEach(function (form) {
+                Array.from(form.elements).forEach(function (element) {
+                    if (element.tagName.toLowerCase() === 'input' || element.tagName.toLowerCase() === 'textarea') {
+                        element.addEventListener('input', function () {
+                            if (element.checkValidity()) {
+                                element.classList.add('is-valid');
+                                element.classList.remove('is-invalid');
+                            } else {
+                                element.classList.add('is-invalid');
+                                element.classList.remove('is-valid');
+                            }
+                        });
+                    }
+                });
+            });
+        })();
+    </script>
 </body>
 
 </html>
